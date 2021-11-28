@@ -1,0 +1,178 @@
+/***********************************************/
+/* imgtouch.css                            */
+/* Use with index.html         */
+/***********************************************/
+
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/
+body {
+  font: 11px/1.5 lucida-grande, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	color: #cccccc;
+	line-height: 2;	
+	background-color: #000000;
+}
+
+h1 {
+  font: 22px lucida-grande, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	color: #cccccc;
+	line-height: 2;	
+	background-color: #000000;
+}
+
+h2 {
+  font: 17px lucida-grande, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	color: #FF9933;
+	line-height: 2;	
+	background-color: #000000;
+}
+
+/************** TopFrame styles ****************/
+#TopFrame {
+	height: 512px;
+	text-align: center;
+	background-color:#000000;
+}
+
+/************** Divider styles ****************/
+#Divider {
+	height: 2px;
+	background-color: #666666;
+}
+
+/************** MidFrame styles ****************/
+#MidFrame {
+	height: 220px;
+	background-color: #000000;
+}
+
+#LeftSection {
+	float: left;
+	width: 49%;
+	height: 100%;
+	background-color: #000000;
+}
+
+#GlobalNav {
+	float: right;
+	width: 120px;
+	height: 210px;
+	padding: 10px 5px 0 0;
+	background-color: #000000;
+}
+
+#CategoryNav {
+	float: right;
+	width: 200px;
+	height: 210px;
+	padding: 10px 0 0 5px;
+	background-color: #000000;
+}
+
+#GlobalText {
+	text-align: left;
+	height: 25px;
+	padding: 2px 5px 0 0;
+  font: 12px lucida-grande, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#CategoryText {
+	text-align: left;
+	height: 25px;
+	padding: 2px 0 0 5px;
+  font: 12px lucida-grande, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+#RightSection {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #000000;
+}
+
+#ThumbSection {
+	float: left;
+	width: 400px;
+	height: 220px;
+	padding: 0;
+	background-color: #000000;
+}
+
+#ThumbNails {
+	float: left;
+	text-align:center;
+	margin: 2px 0 0 2px;
+	width: 95px;
+	height: 70px;
+}
+
+#ThumbNails img{
+	border: none;
+}
+
+
+/************** FooterFrame styles ****************/
+#FooterFrame {
+  font: 8px lucida-grande, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	color: #cccccc;
+	padding: 10px 20px;
+	text-align: center;
+	height: 36px;
+	background-color:#000000;
+}
+
+#FooterFrame a{
+	color: #999999;
+	text-decoration: none;
+}
+
+#FooterFrame a:hover{
+	color: #cccccc;
+}
+
+#FooterFrame img{
+	padding: 4px 4px 4px 0px;
+	vertical-align: middle;
+	border: none;
+}
+
+/************** LoadingPage styles ****************/
+
+a.hidden {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+a.hidden:hover{
+	color: #999999;
+}
+
+#Map {
+	height: 400px;
+	padding: 20px 0;
+}
+
+a.navCurrent {
+	color:#BB5C00;
+	text-decoration: none;
+}
+
+a.navCurrent:hover{
+	color: #FF8000;
+	background-color:#000000;
+}
+
+a.navNormal {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+a.navNormal:hover{
+	color: #ffffff;
+}
